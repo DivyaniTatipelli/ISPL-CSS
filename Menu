@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant Menu</title>
+  </head>
+  <style>
+    .menu-item{
+        display: flex;
+    }
+    img{
+    width: 25%;
+    height: 25%;
+    padding: 10px;
+    border-radius: 30px;
+    height: 300px;
+    }
+    .menu-text{
+        justify-content: center;
+        color: rgb(106, 26, 91);
+        align-items: center;
+        text-align: center;
+    }
+    .hotel-name{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    p.menu-item-desc {
+    font-size: 20px;
+    }
+    h3.menu-item-heading {
+    color: #306968;
+    }
+    .hotel-name {
+    background-color: #9f789f47;
+    }
+  </style>
+  <body>
+    <main class="container">
+      <div class="menu">
+        <div class="hotel-name"><h1>PIZZA HUT</h1></div>
+        <div class="menu-text"><h2 class="menu-group-heading">Menu Items</h2></div>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              src="https://tse3.mm.bing.net/th?id=OIP.CCv_T02Us8GbVDYtnOBbTwHaJ4&pid=Api&P=0&h=180"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Pizza</span>
+                <span class="menu-item-price">$19.90</span>
+              </h3>
+              <p class="menu-item-desc">
+                A yummy pizza with a combination of Golden corn,Onions,Tomoatoes and Crunchy green belly peppers.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="https://www.indianhealthyrecipes.com/wp-content/uploads/2019/05/masala-pasta.jpg"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Pasta</span>
+                <span class="menu-item-price">$10.90</span>
+              </h3>
+              <p class="menu-item-desc">
+                A perfect blend of Indian flavours in your favourite pasta Onion,Capsicum and Sweet corn.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="https://www.shutterstock.com/image-photo/burger-tomateoes-lettuce-pickles-on-260nw-2309539129.jpg"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Burger</span>
+                <span class="menu-item-price">$11.90</span>
+              </h3>
+              <p class="menu-item-desc">
+                With caramalized onions and garlic mayo,Topped with green onions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <h2 class="menu-group-heading">Main Course</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              src="https://media.istockphoto.com/id/179085494/photo/indian-biryani.jpg?s=612x612&w=0&k=20&c=VJAUfiuavFYB7PXwisvUhLqWFJ20-9m087-czUJp9Fs="
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Biryani</span>
+                <span class="menu-item-price">$17.90</span>
+              </h3>
+              <p class="menu-item-desc">
+                Lazize subz Biryani.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="https://t4.ftcdn.net/jpg/04/75/65/21/360_F_475652107_Sx73qgHWljGylX5KRyDFeE46ftX0A4EE.jpg"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Paneer Tikka</span>
+                <span class="menu-item-price">$15.90</span>
+              </h3>
+              <p class="menu-item-desc">
+                Malai Paneer Tikka.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="https://maayeka.com/wp-content/uploads/2020/02/1-matar-mushroom-curry.jpg"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Mutter Mushroom</span>
+                <span class="menu-item-price">$13.90</span>
+              </h3>
+              <p class="menu-item-desc">
+                Button mushrooms cooked with green peas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
